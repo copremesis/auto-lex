@@ -1,0 +1,13 @@
+{
+    "BankAccountNumber": "Got it. Please say or enter the bank account number from which you want to make the payment.",
+    "BankRoutingNumber": "I am sorry. Please say or enter the routing number again",
+    "BankAccountNumber1": "I didn't follow. Please say or enter the routing number.",
+    "RoutingConfirmation": "<speak> To confirm, that was <say-as interpret-as='digits'>{routing_number}</say-as>. Right?</speak>",
+    "ReaskBankAccountNumber": "I am sorry. Please say or enter the bank account number again.",
+    "ReaskBankAccountNumber1": "I didn't follow. Please say or enter the account number again.",
+    "BankAccountNumberConfirm": "<speak>I have your bank account number as, <say-as interpret-as='digits'>{bank_account_number}</say-as>. Is that correct?</speak>",
+    "Fulfilment": "<speak>Thank you. Your payment was successful. Your confirmation code is <say-as interpret-as='digits'>{confirmation_code}</say-as>. We will email you the confirmation code. Anything else?</speak>",
+    "Failure": "I am sorry. I am unable to process your payment at the moment. Let me connect you to someone who can help.",
+    "Denied": "Okay then. I will not proceed. What else can I do for you?",
+    "Confirmation": "OK. Can I go ahead with this payment method?"
+}

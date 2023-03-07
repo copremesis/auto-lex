@@ -1,0 +1,15 @@
+{
+    "Dob": "OK. For verification, please tell me the date of birth of this policy holder.",
+    "re-elicitPhone": "I'm sorry. Please tell me the policy holder's phone number again.",
+    "re-elicitPhone1": "I didn't follow. Please tell me the policy holder's phone number",
+    "PhoneNumberConfirmation": "<speak>To confirm, that was <say-as interpret-as='digits'>{phone_number}</say-as>. Correct?</speak>",
+    "invalidPhone": "I didn't find a match. Please say or enter the policy holder's phone number again.",
+    "FirstName": "OK. Please tell me the first name of the driver you want to remove from your policy?",
+    "LicenceNumber":"OK. For verification, tell me the license number of the driver you want to remove.",
+    "Fulfilment": "Thanks. The driver will be removed from your existing auto policy, and your premium will be updated accordingly.  We will send you an email with the confirmation. Anything else?",
+    "NoMatch": "I didn't find a match. You can try one more time. What else can I do for you", 
+    "Failure": "I'm sorry. I'm not able to remove driver from your policy at the moment. Let me connect you to a representative who can help.",
+    "Denied": "Okay then. I will not proceed. What else can I do for you?",
+    "Confirmation": "Got it. Removing a driver from your policy will generally result in premium change. Your new estimated monthly premium would be, $182. The change will be effective, from today, {today}. Should I go ahead and remove the driver?",
+    "FailureReason":"I am not able to remove the driver from your policy because {reason}. Anything else?"
+}

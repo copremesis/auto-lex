@@ -1,0 +1,16 @@
+{
+    "Dob": "OK. For verification, please tell me the date of birth of this policy holder.",
+    "re-elicitPhoneNumber": "I'm sorry. Please tell me the policy holder's phone number again.",
+    "re-elicitPhoneNumber1": "I didn't follow. Please tell me the policy holder's phone number",
+    "PhoneNumberConfirmation": "<speak>To confirm, that was <say-as interpret-as='digits'>{phone_number}</say-as>. Correct?</speak>",
+    "PhoneNumberConfirmation1": "<speak>That was <say-as interpret-as='digits'>{phone_number}</say-as>. Correct? Please say either 'yes' or 'no'</speak>",
+    "InvalidPhone": "I didn't find a match. Please say or enter the policy holder's phone number again.",
+    "PolicyType": "All right. I see you have two policies with us. Which policy premium would you like to pay? Auto, or homeowners?",
+    "Amount": "<speak>OK. Your next payment of ${amount} is due on <say-as interpret-as='date' format='mdy'> {date}</say-as>. Your remaining statement balance is, ${remaining_statement_balance} . How much would you like to pay?</speak>",
+    "PaymentOption0": "OK. Please say or enter the full {payment_method} number. Just say wait if you need a moment to get it.  Or, if you're ready, you may begin entering it.",
+    "PaymentOption": "Okay then, how would you like to pay, by credit card, debit card, or electronic transfer?",
+    "FirstName": "Sure. Please tell me the account holder's first name.",
+    "PaymentOption1": "How would you like to pay? By credit card, debit card, or electronic check?",
+    "NoPaymentDue": "I don't see any payment due. What else can I do for you?",
+    "RoutingNumber":"OK. Please say or enter the bank routing number, associated with the account from which you want to make the payment."
+}

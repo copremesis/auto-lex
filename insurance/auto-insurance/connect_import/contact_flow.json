@@ -1,0 +1,165 @@
+{
+  "Version": "2019-10-30",
+  "StartAction": "ae83875b-d4e3-4b20-b740-1e33a36a9851",
+  "Metadata": {
+    "entryPointPosition": {
+      "x": 15,
+      "y": 15
+    },
+    "snapToGrid": false,
+    "ActionMetadata": {
+      "ec04fb84-b190-4928-9b5a-9b180c374615": {
+        "position": {
+          "x": 887,
+          "y": 90
+        }
+      },
+      "ae83875b-d4e3-4b20-b740-1e33a36a9851": {
+        "position": {
+          "x": 142,
+          "y": 18
+        },
+        "overrideConsoleVoice": false,
+        "defaultVoice": "Standard"
+      },
+      "66bbf1d2-ae0f-4c60-b48c-339d873b42f2": {
+        "position": {
+          "x": 658,
+          "y": 5
+        },
+        "useDynamic": false
+      },
+      "cea78264-a0c7-4f10-9795-0f9687e02916": {
+        "position": {
+          "x": 158,
+          "y": 199
+        },
+        "useDynamic": false
+      },
+      "7ca53d10-b0a9-4362-af94-ad4683eb5262": {
+        "position": {
+          "x": 433,
+          "y": 290
+        },
+        "useDynamic": false
+      },
+      "95968409-6858-4ccd-8631-6c4a1cd64bad": {
+        "position": {
+          "x": 416,
+          "y": 9
+        },
+        "conditionMetadata": [{
+          "id": "12ce66aa-01d0-43b7-af05-7fd358d746f4",
+          "value": "EndConversation"
+        }],
+        "useDynamic": false,
+        "dynamicMetadata": {
+          "x-amz-lex:audio:start-timeout-ms:*:*": false,
+          "x-amz-lex:audio:end-timeout-ms:*:*": false
+        },
+        "useLexBotDropdown": true,
+        "useDynamicLexBotArn": false,
+        "lexV2BotName": "bot_name",
+        "lexV2BotAliasName": "Prod"
+      },
+      "86b8a363-fc46-41c3-8e67-869cb12888bb": {
+        "position": {
+          "x": 700,
+          "y": 293
+        },
+        "useDynamic": false
+      }
+    }
+  },
+  "Actions": [{
+    "Identifier": "ec04fb84-b190-4928-9b5a-9b180c374615",
+    "Type": "DisconnectParticipant",
+    "Parameters": {},
+    "Transitions": {}
+  }, {
+    "Identifier": "ae83875b-d4e3-4b20-b740-1e33a36a9851",
+    "Parameters": {
+      "TextToSpeechVoice": "Joanna"
+    },
+    "Transitions": {
+      "NextAction": "cea78264-a0c7-4f10-9795-0f9687e02916",
+      "Errors": [],
+      "Conditions": []
+    },
+    "Type": "UpdateContactTextToSpeechVoice"
+  }, {
+    "Identifier": "66bbf1d2-ae0f-4c60-b48c-339d873b42f2",
+    "Parameters": {
+      "Text": "Bye. Have a nice day."
+    },
+    "Transitions": {
+      "NextAction": "ec04fb84-b190-4928-9b5a-9b180c374615",
+      "Errors": [],
+      "Conditions": []
+    },
+    "Type": "MessageParticipant"
+  }, {
+    "Identifier": "cea78264-a0c7-4f10-9795-0f9687e02916",
+    "Parameters": {
+      "Text": "Welcome to ACB mutual insurance. How can I help you today?"
+    },
+    "Transitions": {
+      "NextAction": "95968409-6858-4ccd-8631-6c4a1cd64bad",
+      "Errors": [],
+      "Conditions": []
+    },
+    "Type": "MessageParticipant"
+  }, {
+    "Identifier": "7ca53d10-b0a9-4362-af94-ad4683eb5262",
+    "Parameters": {
+      "SSML": "<speak></speak>"
+    },
+    "Transitions": {
+      "NextAction": "95968409-6858-4ccd-8631-6c4a1cd64bad",
+      "Errors": [],
+      "Conditions": []
+    },
+    "Type": "MessageParticipant"
+  }, {
+    "Identifier": "95968409-6858-4ccd-8631-6c4a1cd64bad",
+    "Parameters": {
+      "SSML": "<speak></speak>",
+      "LexSessionAttributes": {
+        "x-amz-lex:audio:start-timeout-ms:*:*": "10000",
+        "x-amz-lex:audio:end-timeout-ms:*:*": "1000"
+      },
+      "LexV2Bot": {
+        "AliasArn": "arn:aws:lex:us-east-1:049982172265:bot-alias/QZRHRUCQXR/TSTALIASID"
+      }
+    },
+    "Transitions": {
+      "NextAction": "7ca53d10-b0a9-4362-af94-ad4683eb5262",
+      "Errors": [{
+        "NextAction": "7ca53d10-b0a9-4362-af94-ad4683eb5262",
+        "ErrorType": "NoMatchingError"
+      }, {
+        "NextAction": "86b8a363-fc46-41c3-8e67-869cb12888bb",
+        "ErrorType": "NoMatchingCondition"
+      }],
+      "Conditions": [{
+        "NextAction": "66bbf1d2-ae0f-4c60-b48c-339d873b42f2",
+        "Condition": {
+          "Operator": "Equals",
+          "Operands": ["EndConversation"]
+        }
+      }]
+    },
+    "Type": "ConnectParticipantWithLexBot"
+  }, {
+    "Identifier": "86b8a363-fc46-41c3-8e67-869cb12888bb",
+    "Parameters": {
+      "SSML": "<speak></speak>"
+    },
+    "Transitions": {
+      "NextAction": "95968409-6858-4ccd-8631-6c4a1cd64bad",
+      "Errors": [],
+      "Conditions": []
+    },
+    "Type": "MessageParticipant"
+  }]
+}

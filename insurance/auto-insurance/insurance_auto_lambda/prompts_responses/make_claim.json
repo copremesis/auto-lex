@@ -1,0 +1,17 @@
+{
+    "Dob": "OK. For verification, please tell me the date of birth of this policy holder.",
+    "ReaskPhoneNumber": "I'm sorry. Please tell me the policy holder's phone number again.",
+    "ReaskPhoneNumber1": "I didn't follow. Please tell me the policy holder's phone number",
+    "PhoneNumberConfirmation": "<speak>To confirm, that was <say-as interpret-as='digits'>{phone_number}</say-as>. Correct?</speak>",
+    "InvalidPhoneNumber": "I didn't find a match. Please say or enter the policy holder's phone number again.",
+    "Make": "I am going to request the vehicle details to help you make a claim. Tell me the make of the vehicle.",
+    "Mismatch_re-elicitMake": "I didn't find a match. Please tell me the make of the vehicle.",
+    "Fulfilment1": "Thank you. We have sent a text with the link to submit your glass claim. Can I assist you with anything else?",
+    "Location": "Got it. Where did the incident happen? If you're not exactly sure, you can just say in which city and state it occured.",
+    "re-elicitDamageComponent": "I did not follow that. Where did the damage occur? You can say something like ‘to the windshield’, ‘to the bonnet ’ or ‘to the door’ etc",
+    "IfInjured": "OK. Was anyone injured?",
+    "Fulfilment": "<speak>Thank you. Your claim number is <say-as interpret-as='digits'>{confirmation_code}</say-as>. That is <say-as interpret-as='digits'>{confirmation_code}</say-as>. A claims associate will follow up with you shortly. Anything else?</speak>",
+    "Failure": "I am sorry. I'm not able to process your claim at the moment. Please log in to our website  to file your claim. Is there anything else I can help you with?",
+    "Denied": "Okay then. I will not proceed. What else can I do for you?.",
+    "Confirmation": "All right. I have got the details of the incident. Can I go ahead and file this claim"
+}

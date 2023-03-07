@@ -1,0 +1,17 @@
+{
+    "Dob": "OK. For verification, please tell me the date of birth of this policy holder.",
+    "PhoneNumber" : "Okay then. Please tell me the policy holder's phone number again.",
+    "PhoneNumber1": "I didn't follow. Please tell me the policy holder's phone number",
+    "PhoneNumberConfirmation":"<speak>To confirm, that was <say-as interpret-as='digits'>{phone_number}</say-as>. Correct?</speak>",
+    "PhoneNumberConfirmation1":"<speak>That was <say-as interpret-as='digits'>{phone_number}</say-as>. Correct? Please say either 'yes' or 'no'.</speak>",
+    "re-elicitPhoneNumber": "I didn't find a match. Please say or enter the policy holder's phone number again.",
+    "VINAvailable": "OK. Do you have the vehicle identification number?",
+    "Vin": "Great. Please say or enter the vehicle identification number.",
+    "MakeModelYear": "Okay then. Please say the year make and model of the vehicle. For example, say, 2017 Ford Mustang.",
+    "re-elicitVin": "I didn't follow. Do you have the vehicle identification number. You can say, yes, or no.",
+    "TypeofCoverage": "Got it. And what type of coverage would you need for your new vehicle? Is it comprehensive or liability?",
+    "Fulfilment": "Done. New vehicle has been added to your policy, and your premium has been updated accordingly. We will send you an email with the confirmation. Anything else?",
+    "Failure": "Sorry. I'm not able to add a vehicle to your policy at the moment. Let me connect you to a representative who can help.",
+    "Denied": "Okay then. I will not proceed. Is there anything else I can assist you with?",
+    "Confirmation": "OK. Adding a vehicle to your policy will result in premium increase. Your new estimated monthly premium would be, $231. The change will be effective, from today, {today}. Should I go ahead and add the vehicle?"
+}

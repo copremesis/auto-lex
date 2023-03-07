@@ -1,0 +1,12 @@
+{
+    "CardHolderFirstName": "OK. Please tell me the card holder's first name.",
+    "re-elicitCardNumber": "I am sorry. Please say or enter the card number again.",
+    "re-elicitCardNumber1": "I didn't follow. Please say or enter the card number.",
+    "CVVNumber": "{expiry_date}, OK. Please enter the CVV number, or security code printed on the back of the card.",
+    "CardNumberConfirmation":  "<speak>I have your card number as <say-as interpret-as='digits'>{card_number}</say-as>. Is that correct?</speak>",
+    "Fulfilment": "<speak>Thank you. Your payment was successful. Your confirmation code is <say-as interpret-as='digits'>{confirmation_code}</say-as>. We will email you the confirmation code. Anything else?</speak>",
+    "Failure": "I am sorry. I am unable to process your payment at the moment. Let me connect you to someone who can help.",
+    "Denied": "Okay then. I will not proceed. What else can I do for you?",
+    "Confirmation":"OK. Can I go ahead with this payment method?",
+    "InvalidCVV": "Please enter the CVV number again, it should be a three digits number, printed on the back of the card. "
+}

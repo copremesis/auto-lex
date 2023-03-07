@@ -1,0 +1,899 @@
+{
+    "Items": [
+        {
+            "record_type_id": {
+                "S": "A"
+            },
+            "card_details": {
+                "M": {
+                    "card_number": {
+                        "S": "5678123456781234"
+                    },
+                    "cvv": {
+                        "S": "123"
+                    },
+                    "expiry_date": {
+                        "S": "01/2024"
+                    }
+                }
+            },
+            "zip_code": {
+                "S": "67890"
+            },
+            "customer_id": {
+                "S": "600002"
+            },
+            "ssn_last4_digits": {
+                "S": "2345"
+            },
+            "wire_routing_number": {
+                "S": "123412345"
+            },
+            "house_number": {
+                "S": "1234"
+            },
+            "email": {
+                "S": "jane@gmail.com"
+            },
+            "ssn": {
+                "S": "123412345"
+            },
+            "state": {
+                "S": "California"
+            },
+            "city": {
+                "S": "San Francisco"
+            },
+            "last_name": {
+                "S": "Smith"
+            },
+            "dob": {
+                "M": {
+                    "date": {
+                        "S": "1995-01-01"
+                    },
+                    "age": {
+                        "N": "26"
+                    }
+                }
+            },
+            "first_name": {
+                "S": "Jane"
+            },
+            "phone_number": {
+                "S": "2345678912"
+            },
+            "street_name": {
+                "S": "Main street"
+            },
+            "record_type": {
+                "S": "customer"
+            }
+        },
+        {
+            "policy_type": {
+                "S": "Vehicle Insurance"
+            },
+            "record_type_id": {
+                "S": "A1"
+            },
+            "customer_id": {
+                "S": "600002"
+            },
+            "policy_status": {
+                "S": "active"
+            },
+            "policy_duration_in_months": {
+                "S": "12"
+            },
+            "policy_number": {
+                "S": "5678123400"
+            },
+            "next_payment": {
+                "M": {
+                    "date": {
+                        "S": "11/21/2021"
+                    },
+                    "remaining_statement_balance": {
+                        "S": "100"
+                    },
+                    "amount": {
+                        "S": "100"
+                    }
+                }
+            },
+            "last_payment": {
+                "M": {
+                    "date": {
+                        "S": "09/21/2021"
+                    },
+                    "zip": {
+                        "S": "67890"
+                    },
+                    "last_name": {
+                        "S": "Smith"
+                    },
+                    "amount": {
+                        "S": "100"
+                    },
+                    "mode_of_payment": {
+                        "M": {
+                            "type": {
+                                "S": "card"
+                            },
+                            "card_number": {
+                                "S": "1234123412341234"
+                            },
+                            "card_last4_digits": {
+                                "S": "1234"
+                            }
+                        }
+                    },
+                    "first_name": {
+                        "S": "Jane"
+                    }
+                }
+            },
+            "policy_start_date": {
+                "S": "06/06/2021"
+            },
+            "vehicles": {
+                "L": [
+                    {
+                        "M": {
+                            "model": {
+                                "S": "Corolla"
+                            },
+                            "vehicle_identification_number": {
+                                "S": "1PQRS1PQ1PQR12345"
+                            },
+                            "make": {
+                                "S": "Toyota"
+                            },
+                            "year": {
+                                "S": "2015"
+                            },
+                            "coverage_type": {
+                                "S": "Liability Coverage"
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "model": {
+                                "S": "Maxima"
+                            },
+                            "vehicle_identification_number": {
+                                "S": "1WXYZ1WX1WXY12345"
+                            },
+                            "make": {
+                                "S": "Nissan"
+                            },
+                            "year": {
+                                "S": "2020"
+                            },
+                            "coverage_type": {
+                                "S": "Comprehensive Coverage"
+                            }
+                        }
+                    }
+                ]
+            },
+            "drivers": {
+                "L": [
+                    {
+                        "M": {
+                            "drivers_license_number": {
+                                "S": "PQRS1234"
+                            },
+                            "last_name": {
+                                "S": "Smith"
+                            },
+                            "first_name": {
+                                "S": "Mike"
+                            },
+                            "dob": {
+                                "M": {
+                                    "date": {
+                                        "S": "01/01/1991"
+                                    },
+                                    "age": {
+                                        "N": "31"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "drivers_license_number": {
+                                "S": "34342342"
+                            },
+                            "last_name": {
+                                "S": "smith"
+                            },
+                            "first_name": {
+                                "S": "john"
+                            },
+                            "dob": {
+                                "M": {
+                                    "date": {
+                                        "S": "2001-01-01"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            "record_type": {
+                "S": "policy"
+            },
+            "statement_balance": {
+                "S": "100"
+            }
+        },
+        {
+            "record_type_id": {
+                "S": "P1633724072"
+            },
+            "payment_date": {
+                "S": "12/12/2021"
+            },
+            "payment_amount": {
+                "S": "150"
+            },
+            "payment_instrument_details": {
+                "S": "1234567812345678"
+            },
+            "customer_id": {
+                "S": "600002"
+            },
+            "mode_of_payment": {
+                "NULL": true
+            },
+            "payment_status": {
+                "S": "pending"
+            },
+            "record_type": {
+                "S": "payment"
+            }
+        },
+        {
+            "record_type_id": {
+                "S": "A"
+            },
+            "card_details": {
+                "M": {
+                    "card_number": {
+                        "S": "1234567812345678"
+                    },
+                    "cvv": {
+                        "S": "123"
+                    },
+                    "expiry_date": {
+                        "S": "03/2024"
+                    }
+                }
+            },
+            "zip_code": {
+                "S": "12345"
+            },
+            "customer_id": {
+                "S": "600001"
+            },
+            "ssn_last4_digits": {
+                "S": "6789"
+            },
+            "wire_routing_number": {
+                "S": "123456789"
+            },
+            "house_number": {
+                "S": "1234"
+            },
+            "email": {
+                "S": "john@gmail.com"
+            },
+            "ssn": {
+                "S": "123456789"
+            },
+            "state": {
+                "S": "Texas"
+            },
+            "city": {
+                "S": "Dallas"
+            },
+            "last_name": {
+                "S": "Doe"
+            },
+            "dob": {
+                "M": {
+                    "date": {
+                        "S": "2001-01-01"
+                    },
+                    "age": {
+                        "N": "21"
+                    }
+                }
+            },
+            "first_name": {
+                "S": "John"
+            },
+            "phone_number": {
+                "S": "1234567890"
+            },
+            "street_name": {
+                "S": "Main street"
+            },
+            "record_type": {
+                "S": "customer"
+            }
+        },
+        {
+            "policy_type": {
+                "S": "Vehicle Insurance"
+            },
+            "record_type_id": {
+                "S": "A1"
+            },
+            "customer_id": {
+                "S": "600001"
+            },
+            "policy_status": {
+                "S": "active"
+            },
+            "policy_duration_in_months": {
+                "S": "12"
+            },
+            "policy_number": {
+                "S": "12345678900"
+            },
+            "next_payment": {
+                "M": {
+                    "date": {
+                        "S": "11/20/2021"
+                    },
+                    "remaining_statement_balance": {
+                        "S": "200"
+                    },
+                    "amount": {
+                        "S": "100"
+                    }
+                }
+            },
+            "last_payment": {
+                "M": {
+                    "date": {
+                        "S": "10/10/2021"
+                    },
+                    "zip": {
+                        "S": "12345"
+                    },
+                    "last_name": {
+                        "S": "Doe"
+                    },
+                    "amount": {
+                        "S": "100"
+                    },
+                    "mode_of_payment": {
+                        "M": {
+                            "type": {
+                                "S": "card"
+                            },
+                            "card_number": {
+                                "S": "1234567812345678"
+                            },
+                            "card_last4_digits": {
+                                "S": "5678"
+                            }
+                        }
+                    },
+                    "first_name": {
+                        "S": "John"
+                    }
+                }
+            },
+            "policy_start_date": {
+                "S": "05/05/2021"
+            },
+            "vehicles": {
+                "L": [
+                    {
+                        "M": {
+                            "model": {
+                                "S": "Odyssey"
+                            },
+                            "vehicle_identification_number": {
+                                "S": "1ABCD1AB1ABC12345"
+                            },
+                            "make": {
+                                "S": "Honda"
+                            },
+                            "year": {
+                                "S": "2018"
+                            },
+                            "coverage_type": {
+                                "S": "Comprehensive Coverage"
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "vehicle_identification_number": {
+                                "S": "12342343564235356"
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "vehicle_identification_number": {
+                                "S": "one two three four five six seven eight nine one two three four five six seven eight nine one two three"
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "model": {
+                                "S": "Escape"
+                            },
+                            "make": {
+                                "S": "Ford"
+                            },
+                            "year": {
+                                "S": "2020"
+                            },
+                            "coverage_type": {
+                                "S": "Comprehensive Coverage"
+                            }
+                        }
+                    }
+                ]
+            },
+            "drivers": {
+                "L": [
+                    {
+                        "M": {
+                            "drivers_license_number": {
+                                "S": "CDCD1234"
+                            },
+                            "last_name": {
+                                "S": "Doe"
+                            },
+                            "first_name": {
+                                "S": "Jamie"
+                            },
+                            "dob": {
+                                "M": {
+                                    "date": {
+                                        "S": "01/01/1991"
+                                    },
+                                    "age": {
+                                        "N": "31"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "drivers_license_number": {
+                                "S": "abav1234"
+                            },
+                            "last_name": {
+                                "S": "dayo"
+                            },
+                            "first_name": {
+                                "S": "jame"
+                            },
+                            "dob": {
+                                "M": {
+                                    "date": {
+                                        "S": "2001-01-01"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "drivers_license_number": {
+                                "S": "esgh1d34"
+                            },
+                            "last_name": {
+                                "S": "new"
+                            },
+                            "first_name": {
+                                "S": "yes"
+                            },
+                            "dob": {
+                                "M": {
+                                    "date": {
+                                        "S": "2001-01-01"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "drivers_license_number": {
+                                "S": "abav1234"
+                            },
+                            "last_name": {
+                                "S": "doe"
+                            },
+                            "first_name": {
+                                "S": "jane"
+                            },
+                            "dob": {
+                                "M": {
+                                    "date": {
+                                        "S": "2001-01-01"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "drivers_license_number": {
+                                "S": "1234567890"
+                            },
+                            "last_name": {
+                                "S": "smith"
+                            },
+                            "first_name": {
+                                "S": "John"
+                            },
+                            "dob": {
+                                "M": {
+                                    "date": {
+                                        "S": "2001-01-01"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "drivers_license_number": {
+                                "S": "abav1234"
+                            },
+                            "last_name": {
+                                "S": "doe"
+                            },
+                            "first_name": {
+                                "S": "james"
+                            },
+                            "dob": {
+                                "M": {
+                                    "date": {
+                                        "S": "2001-01-01"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "drivers_license_number": {
+                                "S": "e4342342"
+                            },
+                            "last_name": {
+                                "S": "pham"
+                            },
+                            "first_name": {
+                                "S": "march twenty fourth nineteen seventy four"
+                            },
+                            "dob": {
+                                "M": {
+                                    "date": {
+                                        "S": "2001-01-01"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "drivers_license_number": {
+                                "S": "abad1234"
+                            },
+                            "last_name": {
+                                "S": "doe"
+                            },
+                            "first_name": {
+                                "S": "jay"
+                            },
+                            "dob": {
+                                "M": {
+                                    "date": {
+                                        "S": "2001-01-01"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "drivers_license_number": {
+                                "S": "abad1234"
+                            },
+                            "last_name": {
+                                "S": "doe"
+                            },
+                            "first_name": {
+                                "S": "james"
+                            },
+                            "dob": {
+                                "M": {
+                                    "date": {
+                                        "S": "2001-01-01"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            "record_type": {
+                "S": "policy"
+            },
+            "statement_balance": {
+                "S": "200"
+            }
+        },
+        {
+            "policy_type": {
+                "S": "home"
+            },
+            "record_type_id": {
+                "S": "A2"
+            },
+            "policy_number": {
+                "S": "2019781204"
+            },
+            "next_payment": {
+                "M": {
+                    "date": {
+                        "S": "12/10/2021"
+                    },
+                    "remaining_statement_balance": {
+                        "S": "400"
+                    },
+                    "amount": {
+                        "S": "150"
+                    }
+                }
+            },
+            "last_payment": {
+                "M": {
+                    "date": {
+                        "S": "11/10/2021"
+                    },
+                    "last_name": {
+                        "S": "lastname"
+                    },
+                    "amount": {
+                        "S": "250"
+                    },
+                    "mode_of_payment": {
+                        "M": {
+                            "security_code": {
+                                "S": "344"
+                            },
+                            "card_expiry_date": {
+                                "S": "2024-09-01"
+                            },
+                            "type": {
+                                "S": "card"
+                            },
+                            "card_number": {
+                                "S": "1987789645634572"
+                            },
+                            "card_last4_digits": {
+                                "S": "4572"
+                            }
+                        }
+                    },
+                    "first_name": {
+                        "S": "FirstName"
+                    },
+                    "zip_code": {
+                        "S": "12345"
+                    }
+                }
+            },
+            "customer_id": {
+                "S": "600001"
+            },
+            "policy_details": {
+                "M": {
+                    "additional_coverage": {
+                        "M": {
+                            "monthly_premium": {
+                                "S": "150"
+                            }
+                        }
+                    },
+                    "policy_start_date": {
+                        "S": "05/10/2021"
+                    },
+                    "policy_status": {
+                        "S": "active"
+                    },
+                    "policy_duration_in_months": {
+                        "S": "36"
+                    },
+                    "premium_details": {
+                        "M": {
+                            "monthly_premium": {
+                                "S": "350"
+                            }
+                        }
+                    },
+                    "record_type": {
+                        "S": "policy"
+                    },
+                    "statement_balance": {
+                        "S": "400"
+                    }
+                }
+            }
+        },
+        {
+            "record_type_id": {
+                "S": "C1"
+            },
+            "customer_id": {
+                "S": "600001"
+            },
+            "claim_status": {
+                "S": "recorded"
+            },
+            "incident_details": {
+                "M": {
+                    "address_of_incident": {
+                        "M": {
+                            "house_number": {
+                                "S": "5454 Surrey Path, 105"
+                            },
+                            "state": {
+                                "S": "Texas"
+                            },
+                            "city": {
+                                "S": "Dallas"
+                            },
+                            "street": {
+                                "S": "old road"
+                            }
+                        }
+                    },
+                    "damage_location": {
+                        "S": "windshield"
+                    },
+                    "number_of_people_injured": {
+                        "S": "0"
+                    },
+                    "vehicle_details": {
+                        "M": {
+                            "make": {
+                                "S": "Odyssey"
+                            },
+                            "year": {
+                                "S": "2009"
+                            },
+                            "model": {
+                                "S": "Honda"
+                            }
+                        }
+                    }
+                }
+            },
+            "record_type": {
+                "S": "claim"
+            }
+        },
+        {
+            "record_type_id": {
+                "S": "C1634129843"
+            },
+            "customer_id": {
+                "S": "600001"
+            },
+            "incident_details": {
+                "M": {
+                    "claim_type": {
+                        "S": "Door"
+                    },
+                    "model": {
+                        "S": "Odyssey"
+                    },
+                    "any_injury": {
+                        "S": "Denied"
+                    },
+                    "make": {
+                        "S": "Honda"
+                    },
+                    "year": {
+                        "S": "2018"
+                    }
+                }
+            },
+            "record_type": {
+                "S": "claim"
+            }
+        },
+        {
+            "record_type_id": {
+                "S": "P1634129361"
+            },
+            "payment_date": {
+                "S": "11/20/2021"
+            },
+            "payment_amount": {
+                "S": "100"
+            },
+            "payment_instrument_details": {
+                "S": "123456789012"
+            },
+            "customer_id": {
+                "S": "600001"
+            },
+            "mode_of_payment": {
+                "NULL": true
+            },
+            "payment_status": {
+                "S": "pending"
+            },
+            "record_type": {
+                "S": "payment"
+            }
+        },
+        {
+            "record_type_id": {
+                "S": "L"
+            },
+            "policy_number": {
+                "S": "123456"
+            },
+            "customer_id": {
+                "S": "900009"
+            },
+            "insurance_details": {
+                "M": {
+                    "amount": {
+                        "S": "1000000"
+                    },
+                    "issued_date": {
+                        "S": "10-10-2020"
+                    },
+                    "last_payment_date": {
+                        "S": "15-10-2021"
+                    },
+                    "term": {
+                        "S": "20"
+                    },
+                    "last_payment_amount": {
+                        "S": "37"
+                    },
+                    "status": {
+                        "S": "active"
+                    },
+                    "next_payment_date": {
+                        "S": "30-11-2021"
+                    }
+                }
+            },
+            "record_type": {
+                "S": "customer_policy_details"
+            },
+            "ssn": {
+                "S": "987654321"
+            }
+        }
+    ],
+    "Count": 10,
+    "ScannedCount": 10,
+    "ConsumedCapacity": null
+}

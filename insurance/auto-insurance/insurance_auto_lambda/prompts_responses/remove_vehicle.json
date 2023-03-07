@@ -1,0 +1,14 @@
+{
+    "AskDob": "OK. For verification, please tell me the date of birth of this policy holder.",
+    "re-elicitPhone": "I'm sorry. Please tell me the policy holder's phone number again.",
+    "re-elicitPhone1": "I didn't follow. Please tell me the policy holder's phone number",
+    "PhoneNumberConfirmation": "<speak>To confirm, that was <say-as interpret-as='digits'>{phone_number}</say-as>. Correct?</speak>",
+    "PhoneNumberConfirmation1": "<speak>That was <say-as interpret-as='digits'>{phone_number}</say-as>. Correct? Please say either 'yes' or 'no'</speak>",
+    "InvalidPhone": "I didn't find a match. Please say or enter the policy holder's phone number again.",
+    "AskMake": "I am going to request the vehicle details to help you remove vehicle from policy. Tell me the make of the vehicle.",
+    "Fulfilment": "Done. The vehicle has been removed from your policy and your premium has been updated accordingly. We will send you an email with the confirmation. Anything else?",
+    "Failure": "Sorry I'm not able to remove vehicle from your policy at the moment. Let me connect you to a representative who can help.",
+    "DeniedConfirmation": "Okay then. I will not proceed. What else can I do for you?",
+    "Confirmation": "All right. Removing a vehicle from your policy will result in premium decrease. Your new estimated monthly premium would be, $162. The change will be effective from today, {today}. Should I go ahead and remove the vehicle?",
+    "FailureReason":"I am not able to remove the vehicle from your policy because {reason}. Anything else?"
+}

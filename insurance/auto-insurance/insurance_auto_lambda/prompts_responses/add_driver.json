@@ -1,0 +1,20 @@
+{
+    "re-elicitPhoneNumber": "I'm sorry. Please tell me the policy holder's phone number again.",
+    "re-elicitPhoneNumber1": "I didn't follow. Please tell me the policy holder's phone number",
+    "Dob": "OK. For verification, please tell me the date of birth of this policy holder.",
+    "PhoneNumberConfirmation": "<speak>To confirm, that was <say-as interpret-as='digits'>{phone_number}</say-as>. Correct?</speak>",
+    "PhoneNumberConfirmation1": "<speak>That was <say-as interpret-as='digits'>{phone_number}</say-as>. Correct? Please say either 'yes' or 'no'. </speak>",
+    "re-elicitPhoneNumber2": "I didn't find a match. Please say or enter the policy holder's phone number again.",
+    "FirstName" : "OK. What's the first name of the new driver you want to add to your policy?",
+    "Confirmation": "OK. Adding a driver to your policy will result in premium increase. Your new estimated monthly premium would be, $231. The change will be effective from today, {today}. Can I go ahead and add the driver?",
+    "MaritalStatus": "Thanks. What is the marital status of the new driver?",
+    "Relationship":"And what is the driver's relationship with the policy holder? For example, you can say something like, spouse, child, co-owner, employee, or others.",
+    "re-elicitMaritalStatus": "Sorry I didn't get that. For marital status of the driver, you can say one of these, married, single, divorced, separated, widowed.",
+    "re-elicitLicenseNumber": "I am sorry. Please tell me the driver's license number again.",
+    "re-elicitLicenseNumber1": "I didn't follow. Please tell me the driver's license number.",
+    "LicenceConfirmation": "<speak>Just to confirm, that is <say-as interpret-as='characters'>{license_number}</say-as> . Correct?</speak>",
+    "LicenceConfirmation1": "<speak>That is <say-as interpret-as='characters'>{license_number}</say-as> . Correct? Please say either 'yes' or 'no'.</speak>",
+    "Fulfilment": "Done. New driver has been added to your policy, and your premium has been updated accordingly. We will send you an email with the confirmation. Is there anything else I can help you with?",
+    "Failure": "I am sorry. I'm not able to add a new driver to your policy at the moment. Let me connect you to a representative who can help.",
+    "Denied": "Okay then. I will not proceed. What else can I do for you?"
+}

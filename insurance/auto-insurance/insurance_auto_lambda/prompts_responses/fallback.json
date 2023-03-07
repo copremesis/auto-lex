@@ -1,0 +1,13 @@
+{
+    "AddDriver": "Sorry? If you want to add a driver to your policy, say, 'I want to add a driver'",
+    "RemoveDriver": "Sorry? If you want to remove driver from your policy, say, 'I want to remove a driver'",
+    "FindAnAdvisor": "Sorry? if you want to find an advisor, say, 'I want to find an advisor'",
+    "GetPolicyQuote": "Sorry? If you want to get policy quote, say, 'I want to get a policy quote'",
+    "MakeAClaim": "Sorry? If you want to make a claim, say, 'I want to make a claim'",
+    "MakePremiumPayment": "Sorry? If you want to make premium payment, say, 'I want to make a premium payment'",
+    "RemoveDriver": "Sorry? If you want to remove a driver from your policy, say, 'I want to remove a driver'",
+    "RemoveVehicle": "Sorry? If you want to remove vehicle, say, 'I want to remove a vehicle'",
+    "PaymentByCard":"Sorry? If you want to make payment by card, say, 'credit card or debit card'",
+    "PaymentByElectronicCheck":"Sorry? If you want to make payment by electronic check, say, 'electronic transfer'",
+    "DefaultFallback":  "Some of the things I can help you with are: add driver to policy, remove driver from policy, make premium payment, add vehicle to policy. Now can you please rephrase your request?"
+}
